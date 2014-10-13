@@ -1,0 +1,11 @@
+1 SNish -> NP VP .
+
+1 VP -> VerbT NP
+
+20 NP -> Det Nbar
+1 NP -> Proper
+
+20 Nbar -> Noun
+1 Nbar -> Nbar PP
+
+1 PP -> Prep NP
