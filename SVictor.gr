@@ -1,0 +1,21 @@
+# The start symbol is START.
+
+# This is a very, very, very simple grammar to get you started.
+
+1 SVictor -> NP VP .
+
+# Questions
+1 SVictor -> WP$ Noun DO VP ?
+1 SVictor -> WRB Noun DO VP ?
+1 SVictor -> WP DO Noun VP ?
+
+
+1 VP -> VerbT NP
+
+20 NP -> Det Nbar
+1 NP -> Proper
+
+20 Nbar -> Noun
+1 Nbar -> Nbar PP
+
+1 PP -> Prep NP

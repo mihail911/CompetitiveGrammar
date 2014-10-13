@@ -90,6 +90,7 @@
 1.0	PAU	--
 1.0	PAU	;
 1.0	PAU	:
+<<<<<<< HEAD
 1.0	PP	Prep	NP
 1.0	PP	Prep	NP
 1.0	PP	he
@@ -100,6 +101,19 @@
 1.0	PP	she
 1.0	PP	them
 1.0	PP	they
+=======
+1.0	PP	Prep	NP
+1.0	PP	he
+1.0	PP	her
+1.0	PP	him
+1.0	PP	it
+1.0	PP	one
+1.0	PP	she
+1.0	PP	them
+1.0	PP	they
+1.0	PP	Prep	NP
+1.0	PP	Prep	NP
+>>>>>>> 97ecc6c4450fa9c1a554eef95ae6315583ade91c
 1.0	POSMAR	's
 1.0	VERPP3P	have
 1.0	VERPP3P	speak
@@ -140,11 +154,21 @@
 1.0	RB	unfortunately
 20.0	NP	Det	Nbar
 1.0	NP	Proper
+<<<<<<< HEAD
 20.0	NP	Det	Nbar
 1.0	NP	Proper
 1.0	NP	England
 1.0	NP	Holy	Grail
 1.0	NP	Round	Table
+=======
+1.0	NP	England
+1.0	NP	Holy	Grail
+1.0	NP	Round	Table
+20.0	NP	Det	Nbar
+1.0	NP	Proper
+20.0	NP	Det	Nbar
+1.0	NP	Proper
+>>>>>>> 97ecc6c4450fa9c1a554eef95ae6315583ade91c
 0.2	SUBCON	if
 0.2	SUBCON	because
 0.2	SUBCON	while
@@ -193,6 +217,13 @@
 1.0	CC	nor
 1.0	CC	neither
 1.0	CC	so
+<<<<<<< HEAD
+=======
+1.0	SVictor	NP	VP	.
+1.0	SVictor	WP$	Noun	DO	VP	?
+1.0	SVictor	WRB	Noun	DO	VP	?
+1.0	SVictor	WP	DO	Noun	VP	?
+>>>>>>> 97ecc6c4450fa9c1a554eef95ae6315583ade91c
 0.111111111111	Det	this
 0.111111111111	Det	the
 0.111111111111	Det	that
@@ -202,11 +233,19 @@
 0.111111111111	Det	any
 0.111111111111	Det	another
 0.111111111111	Det	a
+<<<<<<< HEAD
+1.0	VP	VerbT	NP
+=======
+>>>>>>> 97ecc6c4450fa9c1a554eef95ae6315583ade91c
 1.0	VP	VerbT	NP
 1.0	VP	VerbT	NP
-99.0	START	S1
+1.0	VP	VerbT	NP
+99.0	VP	VB	NP
+49.0	START	SVictor
+50.0	START	SMihail
 1.0	START	S2
 1.0	WP$	whose
+<<<<<<< HEAD
 0.0138888888889	Markov	VBD
 0.0138888888889	Markov	VB
 0.0138888888889	Markov	NOT
@@ -283,6 +322,84 @@
 1.0	Nbar	Nbar	PP
 20.0	Nbar	Noun
 1.0	Nbar	Nbar	PP
+=======
+0.0142857142857	Markov	VBD
+0.0142857142857	Markov	VB
+0.0142857142857	Markov	NOT
+0.0142857142857	Markov	TO
+0.0142857142857	Markov	DO
+0.0142857142857	Markov	RB
+0.0142857142857	Markov	PPS
+0.0142857142857	Markov	PP
+0.0142857142857	Markov	NPS
+0.0142857142857	Markov	NP
+0.0142857142857	Markov	NNS
+0.0142857142857	Markov	POSMAR
+0.0142857142857	Markov	WRB
+0.0142857142857	Markov	WP$
+0.0142857142857	Markov	WP
+0.0142857142857	Markov	WDT
+0.0142857142857	Markov	VERPP3P
+0.0142857142857	Markov	VBZ
+0.0142857142857	Markov	VBN
+0.0142857142857	Markov	VBG
+0.0142857142857	Markov	JJS
+0.0142857142857	Markov	JJR
+0.0142857142857	Markov	JJ
+0.0142857142857	Markov	MD
+0.0142857142857	Markov	SUBCON
+0.0142857142857	Markov	EXP
+0.0142857142857	Markov	NUM
+0.0142857142857	Markov	CC
+0.0142857142857	Markov	PAU
+0.0142857142857	Markov	EOS
+0.0142857142857	Markov	VerbT
+0.0142857142857	Markov	Proper
+0.0142857142857	Markov	Prep
+0.0142857142857	Markov	Noun
+0.0142857142857	Markov	Det
+0.0142857142857	Markov	VBD	Markov
+0.0142857142857	Markov	VB	Markov
+0.0142857142857	Markov	NOT	Markov
+0.0142857142857	Markov	TO	Markov
+0.0142857142857	Markov	DO	Markov
+0.0142857142857	Markov	RB	Markov
+0.0142857142857	Markov	PPS	Markov
+0.0142857142857	Markov	PP	Markov
+0.0142857142857	Markov	NPS	Markov
+0.0142857142857	Markov	NP	Markov
+0.0142857142857	Markov	NNS	Markov
+0.0142857142857	Markov	POSMAR	Markov
+0.0142857142857	Markov	WRB	Markov
+0.0142857142857	Markov	WP$	Markov
+0.0142857142857	Markov	WP	Markov
+0.0142857142857	Markov	WDT	Markov
+0.0142857142857	Markov	VERPP3P	Markov
+0.0142857142857	Markov	VBZ	Markov
+0.0142857142857	Markov	VBN	Markov
+0.0142857142857	Markov	VBG	Markov
+0.0142857142857	Markov	JJS	Markov
+0.0142857142857	Markov	JJR	Markov
+0.0142857142857	Markov	JJ	Markov
+0.0142857142857	Markov	MD	Markov
+0.0142857142857	Markov	SUBCON	Markov
+0.0142857142857	Markov	EXP	Markov
+0.0142857142857	Markov	NUM	Markov
+0.0142857142857	Markov	CC	Markov
+0.0142857142857	Markov	PAU	Markov
+0.0142857142857	Markov	EOS	Markov
+0.0142857142857	Markov	VerbT	Markov
+0.0142857142857	Markov	Proper	Markov
+0.0142857142857	Markov	Prep	Markov
+0.0142857142857	Markov	Noun	Markov
+0.0142857142857	Markov	Det	Markov
+20.0	Nbar	Noun
+1.0	Nbar	Nbar	PP
+20.0	Nbar	Noun
+1.0	Nbar	Nbar	PP
+20.0	Nbar	Noun
+1.0	Nbar	Nbar	PP
+>>>>>>> 97ecc6c4450fa9c1a554eef95ae6315583ade91c
 1.0	MD	can
 1.0	MD	could
 1.0	MD	may
@@ -293,7 +410,10 @@
 1.0	MD	should
 1.0	MD	will
 1.0	MD	would
+<<<<<<< HEAD
 1.0	SNish	NP	VP	.
+=======
+>>>>>>> 97ecc6c4450fa9c1a554eef95ae6315583ade91c
 1.0	NNS	coconuts
 1.0	NNS	halves
 1.0	NNS	snows
@@ -318,6 +438,10 @@
 1.0	JJR	simpler
 1.0	JJR	tinier
 1.0	JJR	harder
+<<<<<<< HEAD
+=======
+1.0	SMihail	DO	Nbar	VP
+>>>>>>> 97ecc6c4450fa9c1a554eef95ae6315583ade91c
 0.125	Proper	Uther	Pendragon
 0.125	Proper	Patsy
 0.125	Proper	Dingo
