@@ -46,86 +46,86 @@
 1	VerbT -> rides
 
 # End-of-sentence.
-1	Misc ->	!
-1	Misc ->	.
-1	Misc ->	?
+1	EOS ->	!
+1	EOS ->	.
+1	EOS ->	?
 
 # Pauses.
-1	Misc ->	,
-1	Misc ->	...
-1	Misc ->	--
-1	Misc ->	;
-1	Misc ->	:
+1	PAU ->	,
+1	PAU ->	...
+1	PAU ->	--
+1	PAU ->	;
+1	PAU ->	:
 
 # Coordinating conjunctions.
-1	Misc ->	and
-1	Misc ->	but
-1	Misc ->	or
-1	Misc ->	either
-1	Misc ->	nor
-1	Misc ->	neither
-1	Misc ->	so
+1	CC ->	and
+1	CC ->	but
+1	CC ->	or
+1	CC ->	either
+1	CC ->	nor
+1	CC ->	neither
+1	CC ->	so
 
 # Numbers.
-1	Misc -> {eight | five | one | 5.5 | sixty | 5,000}
+1	NUM -> {eight | five | one | 5.5 | sixty | 5,000}
 
 # Expletive.
-1	Misc -> there
+1	EXP -> there
 
 # Subordinating conjunctions.
-1	Misc -> {that | so | while | because | if}
+1	SUBCON -> {that | so | while | because | if}
 
 # Modals.
-1	Misc -> can
-1	Misc ->	could
-1	Misc ->	may
-1	Misc ->	might
-1	Misc ->	must
-1	Misc ->	ought
-1	Misc ->	shall
-1	Misc ->	should
-1	Misc ->	will
-1	Misc ->	would
+1	MD -> can
+1	MD ->	could
+1	MD ->	may
+1	MD ->	might
+1	MD ->	must
+1	MD ->	ought
+1	MD ->	shall
+1	MD ->	should
+1	MD ->	will
+1	MD ->	would
 
 
 # Adjectives.
-1	Misc ->	bloody
-1	Misc ->	weary
-1	Misc ->	unable
-1	Misc ->	trusty
-1	Misc ->	further
-1	Misc ->	sacred
-1	Misc ->	tropical
-1	Misc ->	indigenous
-1	Misc ->	temperate
-1	Misc ->	hot
-1	Misc ->	lucky
-1	Misc ->	simple
-1	Misc ->	tiny
-1	Misc ->	hard	
-1	Misc ->	sensational
-1	Misc ->	comparable
-1	Misc ->	angolian
-1	Misc ->	yellow
-1	Misc ->	plodding
+1	JJ ->	bloody
+1	JJ ->	weary
+1	JJ ->	unable
+1	JJ ->	trusty
+1	JJ ->	further
+1	JJ ->	sacred
+1	JJ ->	tropical
+1	JJ ->	indigenous
+1	JJ ->	temperate
+1	JJ ->	hot
+1	JJ ->	lucky
+1	JJ ->	simple
+1	JJ ->	tiny
+1	JJ ->	hard
+1	JJ ->	sensational
+1	JJ ->	comparable
+1	JJ ->	angolian
+1	JJ ->	yellow
+1	JJ ->	plodding
 
 # Comparative adjectives.
-1	Misc ->	bloodier
-1	Misc ->	wearier
-1	Misc ->	trustier
-1	Misc ->	hotter
-1	Misc ->	simpler
-1	Misc ->	tinier
-1	Misc ->	harder
+1	JJR ->	bloodier
+1	JJR ->	wearier
+1	JJR ->	trustier
+1	JJR ->	hotter
+1	JJR ->	simpler
+1	JJR ->	tinier
+1	JJR ->	harder
 
 # Superlative adjectives.
-1	Misc ->	bloodiest
-1	Misc ->	weariest
-1	Misc ->	trustiest
-1	Misc ->	hottest
-1	Misc ->	simplest
-1	Misc ->	tiniest
-1	Misc ->	hardest
+1	JJS ->	bloodiest
+1	JJS ->	weariest
+1	JJS ->	trustiest
+1	JJS ->	hottest
+1	JJS ->	simplest
+1	JJS ->	tiniest
+1	JJS ->	hardest
 
 # Plural nouns.
 1	Misc ->	coconuts
