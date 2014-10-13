@@ -2,4 +2,90 @@
 
 # Add to the disjunction below any new POS tag that you might introduce in Vocab.gr.
 #This ensures that your grammar retains the ability to parse any given sequence of POS tags
-1 Markov -> { Det | Misc | Noun | Prep | Proper | VerbT | EOS | PAU | CC | NUM | EXP | SUBCON | MD | JJ | JJR | JJS | VBG | VBN | VBZ | VERPP3P | WDT | WP | WP$ | WRB | POSMAR } (Markov)
+1 Markov -> { Det | Misc | Noun | Prep | Proper | VerbT | EOS | PAU | CC | NUM | EXP | SUBCON | MD | JJ | JJR | JJS | VBG | VBN | VBZ | VERPP3P | WDT | WP | WP$ | WRB | POSMAR | NNS | NP | NPS | PP | PPS | RB | DO | TO | NOT | VB | VBD} (Markov)
+
+# Plural nouns.
+1	NNS ->	coconuts
+1	NNS ->	halves
+1	NNS ->	snows
+1	NNS ->	mountains
+1	NNS ->	areas
+1	NNS ->	strangers
+1	NNS ->	inches
+1	NNS ->	snakes
+1	NNS ->	ants
+1	NNS ->	nights
+
+# More proper nouns, not people.
+
+1	 ->	Camelot
+1	NP ->	England
+1	NP ->	Holy Grail
+1	NP ->	Round Table
+
+# Plural proper nouns.
+1	NPS ->	Britons
+1	NPS ->	Saxons
+
+# Personal pronouns.
+1	PP ->	he
+1	PP ->	her
+1	PP ->	him
+1	PP ->	it
+1	PP ->	one
+1	PP ->	she
+1	PP ->	them
+1	PP ->	they
+
+# Possessive personal pronouns
+1	PPS ->	her
+1	PPS ->	his
+1	PPS ->	its
+1	PPS ->	their
+
+# Adverbs.
+1	RB ->	again
+1	RB ->	already
+1	RB ->	currently
+1	RB ->	frequently
+1	RB ->	precisely
+1	RB ->	south
+1	RB ->	successfully
+1	RB ->	unfortunately
+
+# 'do'/'does'
+1	DO ->	do
+1	DO ->	does
+
+# 'to'
+1	TO ->	to
+
+# 'not'
+1	NOT ->	not
+
+# Verbs (base form).
+1	VB ->	have
+1	VB ->	speak
+1	VB ->	cover
+1	VB ->	be
+1	VB ->	ride
+1	VB ->	drink
+1	VB ->	grow
+1	VB ->	carry
+1	VB ->	suggest
+1	VB ->	migrate
+1	VB ->	know
+
+# Verbs (past tense).
+1	VBD ->	had
+1	VBD ->	spoke
+1	VBD ->	covered
+1	VBD ->	was
+1	VBD ->	were
+1	VBD ->	rode
+1	VBD ->	drank
+1	VBD ->	grew
+1	VBD ->	carried
+1	VBD ->	suggested
+1	VBD ->	migrated
+1	VBD ->	knew
