@@ -1,0 +1,15 @@
+#Mihail's grammar
+
+#1 SMihail -> NP VP 
+1 SMihail -> DO Nbar VP
+
+1 VP -> VerbT NP
+99 VP -> VB NP
+
+20 NP -> Det Nbar
+1 NP -> Proper
+
+20 Nbar -> Noun
+1 Nbar -> Nbar PP
+
+1 PP -> Prep NP
