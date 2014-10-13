@@ -128,90 +128,90 @@
 1	Misc ->	hardest
 
 # Plural nouns.
-1	Misc ->	coconuts
-1	Misc ->	halves
-1	Misc ->	snows
-1	Misc ->	mountains
-1	Misc ->	areas
-1	Misc ->	strangers
-1	Misc ->	inches
-1	Misc ->	snakes
-1	Misc ->	ants
-1	Misc ->	nights
+1	NNS ->	coconuts
+1	NNS ->	halves
+1	NNS ->	snows
+1	NNS ->	mountains
+1	NNS ->	areas
+1	NNS ->	strangers
+1	NNS ->	inches
+1	NNS ->	snakes
+1	NNS ->	ants
+1	NNS ->	nights
 
 # More proper nouns, not people.
 
-1	Misc ->	Camelot
-1	Misc ->	England
-1	Misc ->	Holy Grail
-1	Misc ->	Round Table
+1	 ->	Camelot
+1	NP ->	England
+1	NP ->	Holy Grail
+1	NP ->	Round Table
 
 # Plural proper nouns.
-1	Misc ->	Britons
-1	Misc ->	Saxons
+1	NPS ->	Britons
+1	NPS ->	Saxons
 
 # Personal pronouns.
-1	Misc ->	he
-1	Misc ->	her
-1	Misc ->	him
-1	Misc ->	it
-1	Misc ->	one
-1	Misc ->	she
-1	Misc ->	them
-1	Misc ->	they
+1	PP ->	he
+1	PP ->	her
+1	PP ->	him
+1	PP ->	it
+1	PP ->	one
+1	PP ->	she
+1	PP ->	them
+1	PP ->	they
 
 # Possessive personal pronouns
-1	Misc ->	her
-1	Misc ->	his
-1	Misc ->	its
-1	Misc ->	their
+1	PPS ->	her
+1	PPS ->	his
+1	PPS ->	its
+1	PPS ->	their
 
 # Adverbs.
-1	Misc ->	again
-1	Misc ->	already
-1	Misc ->	currently
-1	Misc ->	frequently
-1	Misc ->	precisely
-1	Misc ->	south
-1	Misc ->	successfully
-1	Misc ->	unfortunately
+1	RB ->	again
+1	RB ->	already
+1	RB ->	currently
+1	RB ->	frequently
+1	RB ->	precisely
+1	RB ->	south
+1	RB ->	successfully
+1	RB ->	unfortunately
 
 # 'do'/'does'
-1	Misc ->	do
-1	Misc ->	does
+1	DO ->	do
+1	DO ->	does
 
 # 'to'
-1	Misc ->	to
+1	TO ->	to
 
 # 'not'
-1	Misc ->	not
+1	NOT ->	not
 
 # Verbs (base form).
-1	Misc ->	have
-1	Misc ->	speak
-1	Misc ->	cover
-1	Misc ->	be
-1	Misc ->	ride
-1	Misc ->	drink
-1	Misc ->	grow
-1	Misc ->	carry
-1	Misc ->	suggest
-1	Misc ->	migrate
-1	Misc ->	know
+1	VB ->	have
+1	VB ->	speak
+1	VB ->	cover
+1	VB ->	be
+1	VB ->	ride
+1	VB ->	drink
+1	VB ->	grow
+1	VB ->	carry
+1	VB ->	suggest
+1	VB ->	migrate
+1	VB ->	know
 
 # Verbs (past tense).
-1	Misc ->	had
-1	Misc ->	spoke
-1	Misc ->	covered
-1	Misc ->	was
-1	Misc ->	were
-1	Misc ->	rode
-1	Misc ->	drank
-1	Misc ->	grew
-1	Misc ->	carried
-1	Misc ->	suggested
-1	Misc ->	migrated
-1	Misc ->	knew
+1	VBD ->	had
+1	VBD ->	spoke
+1	VBD ->	covered
+1	VBD ->	was
+1	VBD ->	were
+1	VBD ->	rode
+1	VBD ->	drank
+1	VBD ->	grew
+1	VBD ->	carried
+1	VBD ->	suggested
+1	VBD ->	migrated
+1	VBD ->	knew
 
 # Verbs (present participles).
 1	Misc ->	having
