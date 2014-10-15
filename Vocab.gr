@@ -141,7 +141,7 @@
 
 # More proper nouns, not people.
 
-1	 ->	Camelot
+1	NP ->	Camelot
 1	NP ->	England
 1	NP ->	Holy Grail
 1	NP ->	Round Table
