@@ -2,12 +2,14 @@
 
 # This is a very, very, very simple grammar to get you started.
 
+# {VP=[@S->_NP -> VP %% 1.0], PP=[@VP->_V_NP -> PP %% 1.0, @NP->_NP -> PP %% 1.0], S=[ROOT -> S %% 1.0], N=[NP -> N %% 0.8888888888888888], NP=[@PP->_P -> NP %% 1.0, @VP->_V -> NP %% 0.6666666666666666]}
+# {V=[VP -> V @VP->_V %% 1.0], P=[PP -> P @PP->_P %% 1.0], NP=[@VP->_V -> NP @VP->_V_NP %% 0.3333333333333333, NP -> NP @NP->_NP %% 0.1111111111111111, S -> NP @S->_NP %% 1.0]}
+
 1 SVictor -> NP VP .
 
 # Questions
-1 SVictor -> WP$ Noun DO VP ?
-1 SVictor -> WRB Noun DO VP ?
-1 SVictor -> WP DO Noun VP ?
+1 SVictor -> WRB Noun VP ?
+1 SVictor -> WP DO Noun VB ?
 
 
 1 VP -> VerbT NP
