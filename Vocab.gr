@@ -178,7 +178,8 @@
 
 # 'do'/'does'
 1	DO ->	do
-1	DO ->	does
+
+1	DOES ->	does
 
 # 'to'
 1	TO ->	to
