@@ -1,6 +1,10 @@
 1 SNish -> NP VP .
 
-1 NP -> Det Noun
+10 NP -> Det Noun
+
+5 NP -> PP
+
+4 NP -> Det JJ Noun
 
 1 VP -> VerbT NP
 
