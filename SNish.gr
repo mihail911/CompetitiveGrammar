@@ -1,12 +1,13 @@
 1 SNish -> NP VP .
 
-10 NP -> Det Noun
-
-5 NP -> PP
-
+10 NP -> { Det Noun | PP }
 4 NP -> Det JJ Noun
 
-1 VP -> VerbT NP
+5 VP -> VerbT NP
+5 VP -> VBD 
+2 VP -> DO VerbT
+2 VP -> DOES VerbT
+1 VP -> DO NOT VerbT
 
 20 NP -> Det Nbar
 
