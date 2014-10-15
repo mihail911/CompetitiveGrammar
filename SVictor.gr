@@ -5,19 +5,70 @@
 # {VP=[@S->_NP -> VP %% 1.0], PP=[@VP->_V_NP -> PP %% 1.0, @NP->_NP -> PP %% 1.0], S=[ROOT -> S %% 1.0], N=[NP -> N %% 0.8888888888888888], NP=[@PP->_P -> NP %% 1.0, @VP->_V -> NP %% 0.6666666666666666]}
 # {V=[VP -> V @VP->_V %% 1.0], P=[PP -> P @PP->_P %% 1.0], NP=[@VP->_V -> NP @VP->_V_NP %% 0.3333333333333333, NP -> NP @NP->_NP %% 0.1111111111111111, S -> NP @S->_NP %% 1.0]}
 
-1 SVictor -> NP VP .
+1 SVictor -> SVictor PAU CC SVictor
 
-# Questions
-1 SVictor -> WRB Noun VP ?
-1 SVictor -> WP DO Noun VB ?
+1 SVictor -> NP VPS EOS
+1 SVictor -> NP VPS AP EOS
+
+1 SVictor -> NPP VPP EOS
+1 SVictor -> NPP VPP AP EOS
+
+1 SVictor -> NPP VPPP EOS
+1 SVictor -> NPP VPPP AP EOS
+
+1 SVictor -> DO NPP VPP ?
+1 SVictor -> DOES NP VPP ?
+1 SVictor -> MD NPP VPP ?
+1 SVictor -> MD NP VPP ?
+
+1 SVictor -> {WRB | WP} DOES NP VPP ?
+1 SVictor -> {WRB | WP} DO NPP VPP ?
+1 SVictor -> {WRB | WP} MD NP VPP ?
+1 SVictor -> {WRB | WP} MD NPP VPP ?
+
+1 SVictor -> {WRB | WP} DOES NP VPP AP ?
+1 SVictor -> {WRB | WP} DO NPP VPP AP ?
+1 SVictor -> {WRB | WP} MD NP VPP AP ?
+1 SVictor -> {WRB | WP} MD NPP VPP AP ?
 
 
-1 VP -> VerbT NP
+1 NP -> VBG to NP VPS
 
-20 NP -> Det Nbar
+1 NP ->  { Det Noun | PP }
 1 NP -> Proper
 
-20 Nbar -> Noun
-1 Nbar -> Nbar PP
+1 NPP ->  Det NNS
 
-1 PP -> Prep NP
+
+
+1 NP -> Det Noun POSMAR Noun
+1 NP -> Det NNS POSMAR Noun
+
+1 NPP -> Det Noun POSMAR NNS
+1 NPP -> Det NNS POSMAR NNS
+1 NPP -> NUM NNS
+
+1 NP -> Det {JJ | JJR | JJS} Noun POSMAR Noun
+1 NP -> Det {JJ | JJR | JJS} NNS POSMAR Noun
+
+1 NPP -> Det {JJ | JJR | JJS} Noun POSMAR NNS
+1 NPP -> Det {JJ | JJR | JJS} NNS POSMAR NNS
+1 NPP -> NUM {JJ | JJR | JJS} NNS
+
+1 VPP -> VERPP3P NP
+1 VPP -> VERPP3P NP RB
+
+1 VPS -> VerbT NP
+1 VPS -> VerbT NP RB
+
+1 VPS -> is {JJ | JJR | the JJS}
+1 VPP -> are {JJ | JJR | the JJS}
+
+1 VPPP -> VBD NP
+1 VPPP -> VBD NP RB
+
+1 AP -> Prep NP
+
+
+
+

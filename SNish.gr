@@ -4,12 +4,12 @@
 4 NP -> Det JJ Noun
 
 5 VP -> VerbT NP
-5 VP -> VBD 
+5 VP -> VBD NNS
 2 VP -> DO VerbT
 2 VP -> DOES VerbT
 1 VP -> DO NOT VerbT
 
-20 NP -> Det Nbar
+2 NP -> Det Nbar
 
 1 NP -> Proper
 
