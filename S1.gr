@@ -1,9 +1,9 @@
 # The start symbol is START.
 
 # These two rules are required; choose their weights carefully!
-98 START -> SVictor
+49 START -> SVictor
 1 START -> SMihail
-1 START -> S2
+50 START -> S2
 
 # This is a very, very, very simple grammar to get you started.
 
